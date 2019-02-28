@@ -1,6 +1,6 @@
 {
   "name": "sw-management",
-  "version": "1.0.0-next",
+  "version": "1.0.1-next",
   "description": "Service Worker Management - PWA",
   "main": "dist/sw-management.js",
   "umd:main": "dist/edotensei.umd.js",
