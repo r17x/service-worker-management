@@ -1,4 +1,4 @@
-# service-worker-management
+# SW-Management.
 
 PWA - Service Worker Management
 
@@ -8,10 +8,10 @@ PWA - Service Worker Management
 
 #### Table of Contents
 
-- [ServiceWorkerOnTheFly](#serviceworkeronthefly)
+- [SWRegister](#swregister)
     -   [Examples](#examples)
 
-### ServiceWorkerOnTheFly
+### SWRegister
 
 An Example how to use SW-management.
 

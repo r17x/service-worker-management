@@ -12,9 +12,17 @@ export default class ServiceWorkerOnTheFly {
   }
 
   get all(){
-      return this.__swRegistration
+    return this.__swRegistration
   }
-
+  /*
+   * @module register
+   * @param {String} swURL - Service Worker Location `https://example.com/service-worker` 
+   * @param {Options} options
+   * @return {Void} 
+   *
+   * @typedef {Object} Options 
+   * @property {Function} onRegister - a callback after registration of service worker 
+   */
   register(swURL, options) {
     // overwrite options on every register
     Object.assign(this.__options, options)
@@ -45,3 +53,7 @@ export default class ServiceWorkerOnTheFly {
     this.__swRegistration.forEach(registration => registration.unregister())
   }
 }
+
+/*
+`* @see - have an idea for new `options` ? @link {https://github.com/ri7nz/service-worker-management/pulls|Here} 
+ */
