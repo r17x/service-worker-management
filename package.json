@@ -1,6 +1,6 @@
 {
   "name": "sw-management",
-  "version": "1.0.0",
+  "version": "1.0.0-next",
   "description": "Service Worker Management - PWA",
   "main": "dist/sw-management.js",
   "umd:main": "dist/edotensei.umd.js",
@@ -9,6 +9,7 @@
   "author": "ri7nz <ri7nz.labs@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.1.0",
     "babel-preset-env": "^1.7.0",
@@ -46,7 +47,9 @@
         }
       ]
     ],
-    "plugins": []
+    "plugins": [
+      "@babel/proposal-class-properties"
+    ]
   },
   "bundlesize": [
     {
