@@ -42,7 +42,7 @@ export default class ServiceWorkerOnTheFly {
   _onRegister(registration) {
     // if have a callback after register
     // then call a callback
-    this.__options.onRegister && this.__options.onRegister(registration)
+    typeof this.__options.onRegister === 'function' && this.__options.onRegister(registration)
     // add service worker to list registration service worker
     this.__swRegistration.push(registration)
   }
