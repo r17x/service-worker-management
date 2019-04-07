@@ -8,11 +8,13 @@ import ServiceWorkerOnTheFly from './ServiceWorkerOnTheFly'
  *
  * // Registration of Service - Worker
  * const swURL = 'https://example.com/service-worker.js' 
- * SWRegister.register(
- *  swURL,
- *  {
+ * const options = {
  *    onRegister: () => console.log('Has Registered with:', swURL)
  *  }
+ * // run
+ * SWRegister.register(
+ *  swURL,
+ *  options,
  * )
  *
  * // Checking all of service-worker registered by SW-Management
@@ -26,4 +28,3 @@ import ServiceWorkerOnTheFly from './ServiceWorkerOnTheFly'
 const SWRegister = new ServiceWorkerOnTheFly()
 
 export default SWRegister
-
