@@ -1,0 +1,22 @@
+language: node_js
+
+branches:
+  only:
+    - master
+    
+node_js:
+  - '10.15.3'
+  
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+install:
+  - yarn install
+  - yarn global add codecov
+  
+script:
+  - yarn test
+  - codecov
+  - yarn build
