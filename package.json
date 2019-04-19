@@ -11,7 +11,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "7.4.0",
     "babel-eslint": "10.0.1",
-    "babel-jest": "24.1.0",
+    "babel-jest": "24.7.1",
     "babel-preset-env": "1.7.0",
     "bundlesize": "0.17.1",
     "documentation": "9.3.1",
