@@ -16,7 +16,7 @@
     "bundlesize": "0.18.0",
     "documentation": "11.0.1",
     "eslint": "6.6.0",
-    "eslint-plugin-jest": "22.21.0",
+    "eslint-plugin-jest": "23.0.0",
     "gzip-size-cli": "3.0.0",
     "jest": "24.9.0",
     "microbundle": "0.11.0",
