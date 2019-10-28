@@ -14,7 +14,7 @@
     "babel-jest": "24.9.0",
     "babel-preset-env": "1.7.0",
     "bundlesize": "0.18.0",
-    "documentation": "11.0.1",
+    "documentation": "12.1.2",
     "eslint": "6.6.0",
     "eslint-plugin-jest": "23.0.0",
     "gzip-size-cli": "3.0.0",
