@@ -8646,10 +8646,10 @@ serialize-javascript@^1.5.0:
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.6.1.tgz#4d1f697ec49429a847ca6f442a2a755126c4d879"
   integrity sha512-A5MOagrPFga4YaKQSWHryl7AXvbQkEqpw4NNYMTNYUNV51bA8ABHgYFpqKx+YFFrw59xMV1qGH1R4AgoNIVgCw==
 
-service-worker-mock@2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/service-worker-mock/-/service-worker-mock-2.0.4.tgz#bf8f278992becff114a6bccc7180274053767f6d"
-  integrity sha512-uA4qa/Wh2UmXLBnTCJuR6UCVHu3zzgWKToPcw9lCMKv1gBXr/sZYLls6FNd4+MD5KgWtfhmK+D9UeGmp2rQFow==
+service-worker-mock@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/service-worker-mock/-/service-worker-mock-2.0.5.tgz#89d47ec1571130114d4deed66d69bdcfee4a4545"
+  integrity sha512-yk6NCFnRWGfbOlP+IS4hEbJnGU8dVgtodAAKLxhkTPsOmaES44XVSWTNozK6KwI+p/0PDRrFsb2RjTMhvXiNkA==
   dependencies:
     dom-urls "^1.1.0"
     shelving-mock-indexeddb "^1.1.0"

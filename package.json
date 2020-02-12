@@ -21,7 +21,7 @@
     "jest": "24.9.0",
     "microbundle": "0.11.0",
     "npm-run-all": "4.1.5",
-    "service-worker-mock": "2.0.4",
+    "service-worker-mock": "2.0.5",
     "strip-json-comments-cli": "1.0.1"
   },
   "scripts": {
