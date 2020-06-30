@@ -9,7 +9,7 @@
   "author": "ri7nz <ri7nz.labs@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "7.10.1",
+    "@babel/plugin-proposal-class-properties": "7.10.4",
     "babel-eslint": "10.1.0",
     "babel-jest": "24.9.0",
     "babel-preset-env": "1.7.0",
